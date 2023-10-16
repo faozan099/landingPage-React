@@ -1,0 +1,39 @@
+:root {
+    --bg-body: #0B2447;
+    --bg-secondary: #19376D;
+    --bg-secondary-dark: #576CBC;
+    --color-hover: #A5D7E8;
+}
+
+:root {
+    --bg-body: #0B2447;
+    --bg-secondary: #19376D;
+    --bg-secondary-dark: #576CBC;
+    --color-hover: #A5D7E8;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--bg-secondary);
+}
+
+.contact div h1 {
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.contact div button {
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: var(--bg-secondary-dark);
+
+}

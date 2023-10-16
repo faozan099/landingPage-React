@@ -1,0 +1,25 @@
+:root {
+    --bg-body: #0B2447;
+    --bg-secondary: #19376D;
+    --bg-secondary-dark: #576CBC;
+    --color-hover: #A5D7E8;
+}
+
+.footer {
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+footer .footer .media a svg {
+    margin: 0 0.5rem;
+}
+
+footer .footer a {
+    color: white;
+    text-decoration: none;
+}
