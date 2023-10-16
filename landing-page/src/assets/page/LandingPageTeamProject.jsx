@@ -9,7 +9,7 @@ import Footer from "../components/LandingPageTeamProject/Footer";
 
 function LandingPageTeamProject() {
   return (
-    <>
+    <div style={{backgroundColor: "white"}}>
       <NavbarAtas />
       <Banner />
       <KategoriKecantikan />
@@ -17,7 +17,7 @@ function LandingPageTeamProject() {
       <KategoriFashion />
       <Footer />
       <NavbarBawah />
-    </>
+    </div>
   );
 }
 

@@ -78,6 +78,9 @@ function KategoriFashion() {
           </div>
         )}
       </div>
+      <div style={{margin: "auto", width: "20%"}} className="d-flex align-items-center justify-cntent-center mt-5">
+      <a href="/home"><button className="btn btn-success" width="100%">Next</button></a>
+      </div>
     </div>
   );
 }

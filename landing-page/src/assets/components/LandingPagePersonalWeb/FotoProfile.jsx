@@ -5,7 +5,7 @@ import "../../css/LandingPagePersonalWeb/FotoProfile.css"
 function FotoProfile() {
   return (
     <div>
-      <img src={fotoProfile} alt="" width="180px" />
+      <img className="tse" src={fotoProfile} alt="" width="180px" />
     </div>
   );
 }
